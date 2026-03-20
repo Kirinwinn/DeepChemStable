@@ -9,8 +9,8 @@ This repository is a forked/adapted version of the original DeepChemStable work,
 Make sure you are under folder `DeepChemStable`.
 
 ```shell
-conda create -n deepchemstable python
-conda activate deepchemstable
+conda create -n DeepChemStable python
+conda activate DeepChemStable
 pip install -r requirments.txt
 ```
 
@@ -20,7 +20,7 @@ The environment file includes RDKit, TensorFlow, scikit-learn, pandas, matplotli
 
 The prediction pipeline expects model weights under `DeepChemStable_model/`.
 
-If the model files are missing in your local copy, download them from [weights](https://drive.google.com/drive/folders/1ZczOgMkoA8fVlqab43jtfK0tJU6fhnOr?usp=drive_link) and place them into `DeepChemStable_model/`.
+You can download them from [weights](https://drive.google.com/drive/folders/1ZczOgMkoA8fVlqab43jtfK0tJU6fhnOr?usp=drive_link) and place them into `DeepChemStable_model/`.
 
 The expected files are:
 
