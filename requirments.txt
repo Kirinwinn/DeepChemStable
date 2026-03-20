@@ -1,0 +1,12 @@
+rdkit==2025.9.6
+tensorflow==2.21.0
+scikit-learn==1.7.2
+autograd
+pandas
+matplotlib
+scipy
+ipykernel
+ipywidgets
+tqdm
+rich
+requests
