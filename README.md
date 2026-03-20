@@ -24,8 +24,8 @@ You can download them from [weights](https://drive.google.com/drive/folders/1Zcz
 
 The expected files are:
 
-(1) `DeepChemStable_model/fingerprint_variables.bin`
-(2) `DeepChemStable_model/prediction_variables.bin`
+1. `DeepChemStable_model/fingerprint_variables.bin`
+2. `DeepChemStable_model/prediction_variables.bin`
 
 ## Quick Start
 
@@ -55,9 +55,9 @@ substance_id,smiles,label
 
 Notes:
 
-(1) `substance_id` is the identifier for each compound.
-(2) `smiles` is the molecular SMILES string.
-(3) For inference-only usage, set all values in the `label` column to `0`.
+1. `substance_id` is the identifier for each compound.
+2. `smiles` is the molecular SMILES string.
+3. For inference-only usage, set all values in the `label` column to `0`.
 
 See `inputs/example_input.csv` for a complete example.
 
@@ -65,8 +65,8 @@ See `inputs/example_input.csv` for a complete example.
 
 After prediction, the project generates:
 
-(1) `results.csv`, which stores `substance_id`, `Probability`, and `Label`.
-(2) `figures/`, which stores visualization results for predictive unstable compounds with highlighted unstable fragments.
+1. `results.csv`, which stores `substance_id`, `Probability`, and `Label`.
+2. `figures/`, which stores visualization results for predictive unstable compounds with highlighted unstable fragments.
 
 See `outputs/example_output.csv` for an example prediction output.
 
@@ -74,14 +74,14 @@ See `outputs/example_output.csv` for an example prediction output.
 
 This repository also includes scripts for training and preprocessing:
 
-(1) `train.py`: model training script.
-(2) `preprocessData.py`: dataset preprocessing and train/dev/test splitting.
-(3) `DeepChemStable_Automation.ipynb`: notebook workflow for automation and exploration.
+1. `train.py`: model training script.
+2. `preprocessData.py`: dataset preprocessing and train/dev/test splitting.
+3. `DeepChemStable_Automation.ipynb`: notebook workflow for automation and exploration.
 
 ## Example Files
 
-(1) Input example: `inputs/example_input.csv`
-(2) Output example: `outputs/example_output.csv`
+1. Input example: `inputs/example_input.csv`
+2. Output example: `outputs/example_output.csv`
 
 ## Troubleshooting
 
@@ -101,5 +101,5 @@ This repository is not the original DeepChemStable release. It is a forked/adapt
 
 Please cite and acknowledge the original work:
 
-(1) Title: *DeepChemStable: Chemical Stability Prediction with an Attention-Based Graph Convolution Network*
-(2) Journal page: https://pubs.acs.org/doi/10.1021/acs.jcim.8b00672
+1. Title: *DeepChemStable: Chemical Stability Prediction with an Attention-Based Graph Convolution Network*
+2. Journal page: https://pubs.acs.org/doi/10.1021/acs.jcim.8b00672
