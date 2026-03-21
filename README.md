@@ -9,7 +9,7 @@ This repository is a forked/adapted version of the original DeepChemStable work,
 Make sure you are under folder `DeepChemStable`.
 
 ```shell
-conda create -n DeepChemStable python
+conda create -n DeepChemStable python==3.10.0
 conda activate DeepChemStable
 pip install -r requirments.txt
 ```
